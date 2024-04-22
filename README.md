@@ -23,6 +23,12 @@ Desplegará un servidor web en [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 En el index se mostrará una tabla con los quacks de todos los usuarios, pero cuenta con una API que puedes utilizar para integrarla con tu propia aplicación o para desarrollar tu propio frontend.
 
+## Docker compose
+1. Clona este repositorio
+2. Ve al directorio del proyecto
+3. Ejecuta los contenedores con Docker Compose: `docker-compose up`
+4. Accede a la aplicación en tu navegador web en http://localhost:8000
+
 ### API REST
 No cuenta con funcionalidad CRUD completa. Se exponen los siguientes endpoints (acompaño explicación y ejemplos):
   - __\[POST\] /signup__ (registrar nuevo usuario). Espera un JSON con la siguiente estructura:
